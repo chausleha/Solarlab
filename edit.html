@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Добавление нового пользователя</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <script type="text/javascript" src="js/birthdays.js"></script>
+  <script type="text/javascript" src="js/edit.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="page-header">
+    <h1>Добавление нового пользователя</h1>
+
+    <div class="profile">
+      <form action="index.html" id="form" class="form-add">
+        <fieldset>
+          <legend>Данные пользователя</legend>
+          <div class="name">
+            <label for="name">Имя</label>
+            <input type="text" id="name" placeholder="Введите имя ">
+          </div>
+          <div class="name">
+            <label for="surname">Фамилия</label>
+            <input type="text" id="surname" placeholder="Введите фамилию ">
+          </div>
+
+          <div class="date">
+            <label for="bithday">Дата рождения</label>
+            <input type="date" id="bithday" min="1900-01-01" max="2021-12-31">
+          </div>
+          <div class="photo">
+            Загрузить фото <input type="file" id="photo" name="photo">
+          </div>
+        </fieldset>
+        <input type="submit" value="Сохранить">
+      </form>
+    </div>
+    <script type="text/javascript">
+      Init();
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: white;
+  font-size: 16px;
+  line-height: 24px;
+  min-width: 700px;
+  text-align:center;
+background: #2193b0; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.month {
+  text-align:right;
+  padding-right: 50px;
+}
+
+.cards-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 20px;
+}
+
+.card {
+  width: 140px;
+  padding: 15px;
+  padding-bottom: 0;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+   }
+
+.card img {
+  max-width:100px;
+  }
+
+
+
+.edit_button  {
+margin-right: 20px;
+background-image:url(/img/edit.png);
+width:55px;
+height:50px;
+margin-top: auto;
+position: relative;
+bottom: 10px;
+}
+
+
+.delete_button  {
+  background-image:url(/img/delete.png);
+  width:55px;
+  height:50px;
+  position: relative;
+bottom: 10px;
+  }
+
+.profile {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.input::-webkit-input-placeholder       {
+  opacity: 1; transition: opacity 0.3s ease;
+}
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+
+  border: 1px solid #34495e;
+  border-radius: 5px;
+}
+
+.name,
+.date,
+.photo {
+padding: 10px;
+}
+
+.name input,
+.date input
+  {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.id_label {
+  display: none;
+}
+
+.card img {
+  width: 110px;
+  height: auto;
+}
